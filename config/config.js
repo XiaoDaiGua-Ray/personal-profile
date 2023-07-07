@@ -28,8 +28,8 @@ export const navigation = {
   ],
 }
 export const intro = {
-  title: "Hey, I'm Ray",
-  description: 'A Computer Engineer creating mobile apps and static websites.',
+  title: '你好，我是 Ray',
+  description: '一个前端开发工程师',
   image: profile.src,
   buttons: [
     {
@@ -46,26 +46,26 @@ export const intro = {
 }
 
 export const about = {
-  title: 'Who I am',
+  title: '关于我',
   description: [
-    'I graduated in 2020 and then worked in front-end development as a front-end development engineer.',
-    'The tech industry is constantly evolving, and I love being able to grow with it while building on the foundations. I open source my code from an empathy standpoint - for future developers, teammates, users, and with accessibility in mind. I also enjoy being part of the community, helping and mentoring new developers, and supporting organizations that promote diversity in technology.',
-    "When I'm not programming, I focus on my hobbies: blogging, playing games, meeting people, and growing my network.",
+    '自2020年毕业，就从事前端开发工作。',
+    '扎实的前端开发基础和丰富的实战经验，擅长使用Vue和React等主流前端框架进行项目开发。',
+    '在我的职业生涯中，我曾经负责开发和维护多个Web应用程序，包括燃气平台、电气平台、电气交易平台、门户网等系统开发。',
+    '在项目开发中，我注重团队合作和代码质量，善于沟通和协作。我能够快速适应新技术和新环境，具备一定的独立解决问题的能力。对于工作我持有高度的责任心，积极主动地解决问题，确保项目按时高质量地完成。',
   ],
 }
 
 export const work = {
-  title: 'What I do',
+  title: '技术栈',
   cards: [
     {
-      title: 'Mobile development',
-      description: 'Develop programs compatible with mobile terminals.',
+      title: '移动端开发',
+      description: '熟练掌握React Native和UNIApp开发技术进行移动端开发',
       icons: null,
     },
     {
-      title: 'Web Development',
-      description:
-        'I create responsive static websites using Reactjs and Vuejs',
+      title: 'Web开发',
+      description: '熟练使用React与Vue进行网站与平台的开发',
       icons: null,
     },
   ],
@@ -76,7 +76,7 @@ export const projects = {
   cards: [
     {
       title: 'Ray Template',
-      description: 'A simple and easy-to-use mid-background template.',
+      description: '一个使用全新技术栈开发的、简洁易用的中后台模板',
       icons: [
         {
           icon: faGithub,
@@ -88,13 +88,17 @@ export const projects = {
 }
 
 export const contact = {
-  title: 'Get in touch',
-  description:
-    'Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at 443547225@qq.com.',
+  title: '联系我',
+  description: '可以随时保持交流～',
   buttons: [
     {
-      title: 'Email Me',
+      title: 'QQ Email',
       link: 'mailto:443547225@qq.com',
+      isPrimary: true,
+    },
+    {
+      title: 'GEmail',
+      link: 'mailto:xiaodaiguaray@gmail.com',
       isPrimary: true,
     },
   ],
