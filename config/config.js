@@ -31,18 +31,6 @@ export const intro = {
   title: '你好，我是 Ray',
   description: '一个前端开发工程师',
   image: profile.src,
-  buttons: [
-    {
-      title: 'Contact Me',
-      link: '#contact',
-      isPrimary: true,
-    },
-    {
-      title: 'Resume',
-      link: 'https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing',
-      isPrimary: false,
-    },
-  ],
 }
 
 export const about = {
