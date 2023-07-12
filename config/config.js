@@ -31,6 +31,7 @@ export const intro = {
   title: '你好，我是 Ray',
   description: '一个前端开发工程师',
   image: profile.src,
+  buttons: [],
 }
 
 export const about = {
