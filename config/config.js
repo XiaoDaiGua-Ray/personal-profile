@@ -29,7 +29,7 @@ export const navigation = {
 }
 export const intro = {
   title: '你好，我是 Ray',
-  description: '一个前端开发工程师',
+  description: '一名前端开发工程师',
   image: profile.src,
   buttons: [],
 }
@@ -37,10 +37,9 @@ export const intro = {
 export const about = {
   title: '关于我',
   description: [
-    '自2020年毕业，就从事前端开发工作。',
-    '扎实的前端开发基础和丰富的实战经验，擅长使用Vue和React等主流前端框架进行项目开发。',
-    '在我的职业生涯中，我曾经负责开发和维护多个Web应用程序，包括燃气平台、电气平台、电气交易平台、门户网等系统开发。',
-    '在项目开发中，我注重团队合作和代码质量，善于沟通和协作。我能够快速适应新技术和新环境，具备一定的独立解决问题的能力。对于工作我持有高度的责任心，积极主动地解决问题，确保项目按时高质量地完成。',
+    '自2020年毕业，致力于前端开发，一名有着扎实的前端开发基础的前端开发者。',
+    '擅长使用Vue和React等主流前端框架进行项目开发。',
+    '并且以负责人身份负责过：冬奥会鸟巢保电系统、电气能量交易平台、电力暂降风险分析系统、燃气SaaS平台等系统的开发与设计。',
   ],
 }
 
@@ -69,7 +68,17 @@ export const projects = {
       icons: [
         {
           icon: faGithub,
-          link: 'https://github.com/XiaoDaiGua-Ray/xiaodaigua-ray.github.io',
+          link: 'https://github.com/XiaoDaiGua-Ray/ray-template',
+        },
+      ],
+    },
+    {
+      title: 'Vue Hooks Plus',
+      description: '一个关于 vue3.x 的 hooks 库',
+      icons: [
+        {
+          icon: faGithub,
+          link: 'https://github.com/InhiblabCore/vue-hooks-plus',
         },
       ],
     },
